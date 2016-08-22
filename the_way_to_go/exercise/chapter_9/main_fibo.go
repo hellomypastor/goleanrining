@@ -24,3 +24,12 @@ func calls() {
 	fmt.Println("...")
 	next()
 }
+
+func main() {
+	op = "+"
+	calls()
+	fmt.Println("Change of operation from + to *")
+	nextFibo = 0
+	op = "*"
+	calls()
+}
